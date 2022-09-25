@@ -360,7 +360,7 @@ function App() {
                           color: "var(--accent-text)",
                         }}
                       >
-                        {mintcost}
+                        {mintcost.tofixed(3)}
                       </s.TextDescription>
                       <s.SpacerMedium />
                       <StyledRoundButton
